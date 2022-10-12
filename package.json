@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://mawag511.github.io/react-gh-pages",
+  "homepage": "https://mawag511.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.3.1",
