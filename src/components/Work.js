@@ -33,7 +33,7 @@ export const Work = () => {
       title: "Filmer",
       description: "Discord Bot",
       imgUrl: proj1Img1,
-      content: "A multiserver Discord Bot developed with Python. Born as a useful bot for a server I'm in, it became a nice idea that might be useful to others as well. The purpose of the bot is to maintain a database of movies that are to be watched or that have been watched already, moreover it also can randomly decide a film for the server to watch.",
+      content: "A Discord Bot developed with Python. Born as a useful bot for a server I'm in, it became a nice idea that might be useful to others as well. The purpose of the bot is to maintain a database of movies that are to be watched or that have been watched already, moreover it also can randomly decide a film for the server to watch.",
       picture1: proj1Img2,
       picture2: proj1Img3,
       picture3: proj1Img4
