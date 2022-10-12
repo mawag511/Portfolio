@@ -1,16 +1,14 @@
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Nabla&display=swap');
+
+
+/* Default CSS */
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .App-header {
@@ -28,11 +26,530 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #111111 !important;
+  color: #00ff4c !important;
+}
+
+hl, h2, h3, h4, h5, h6{
+  margin:0;
+  padding:0;
+  line-height: normal;
+}
+
+p.success {
+	color: green;
+}
+
+p.danger {
+	color: red;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #05e448;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #1a221b;
+}
+
+/* Navbar CSS */
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+  padding: 15px 15px;
+  background-color: #08090a;
+}
+
+.navbar-expand-md .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color: #00ff4c !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover {
+    opacity: 1;
+    font-size: 20px;
+}
+span.navbar-text {
+    display: flex;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+	outline: none;
+    box-shadow: none;
+}
+nav.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 2px solid #00ff4c;
+  transition: all 300ms linear;
+  top: -2px;
+}
+nav.navbar .navbar-toggler-icon:focus {
+	border-bottom: 2px solid #00ff4c;
+}
+nav.navbar .navbar-toggler-icon:after,
+nav.navbar .navbar-toggler-icon:before {
+	width: 24px;
+	position: absolute;
+	height: 2px;
+	background-color: #00ff4c;
+	top: 0;
+	left: 0;
+	content: '';
+	z-index: 2;
+	transition: all 300ms linear;
+}
+nav.navbar .navbar-toggler-icon:after {
+	top: 8px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	transform: rotate(45deg);
+	background-color: #00ff4c;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+	transform: translateY(8px) rotate(-45deg);
+	background-color: #00ff4c;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	border-color: transparent;
+}
+
+
+/* Banner CSS */
+.banner {
+  margin-top: -6rem;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  display: block;
+}
+
+.banner .intro {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.banner .moving-text {
+  font-family: 'Nabla', cursive;
+  margin-bottom: 3rem;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/* About me CSS */
+
+.about-me h1 {
+  margin-top: 3rem;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.about-me h2 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.about-me .abme-square {
+  margin-top: 30px;
+  border: 3px solid rgb(2, 252, 85);
+  transition-duration: 0.7s;
+}
+
+.about-me .abme-square:hover{
+  box-shadow: 0 4px 6px 6px rgb(21, 255, 99);
+  background-color: rgb(25, 24, 30); 
+  transform: translateY(-0.25em);
+  color: #05e448;
+}
+
+.about-me .download {
+  margin-top: 25px;
+}
+
+.about-me .cv,
+.about-me .cv::after {
+  transition: 0.3s ease-in-out;
+}
+
+.about-me .cv {
+  background: none;
+  border:  1px solid #00ff4c;
+  color: #00ff4c;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 14px 48px;
+  position: relative;
+  transition-duration: 0.4s;
+}
+
+.about-me .cv::before,
+.about-me .cv::after {
+  background: #00ff4c;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.about-me .cv:hover {
+  color: #000000;
+}
+
+.about-me .cv::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+
+.about-me .cv:hover:after {
+  width: 100%;
+}
+
+
+/* Work CSS */
+.work {
+  padding: 80px 0;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.work .title {
+  margin-top: -2rem;
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+
+.work .paragraph {
+  width: 56%;
+}
+
+.work p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+}
+
+.work .g-4 {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  padding: 10px;
+  margin-top: 2rem;
+  place-items:  center;
+}
+
+.work .h-100 {
+  border: 3px solid rgb(2, 252, 85);
+  border-radius: 15px;
+  margin-top: 0px;
+  box-shadow: 0 4px 6px 0 rgb(21, 255, 99);
+}
+
+.work .cardButton {
+  border-color: rgb(10, 207, 75);
+  background-color: transparent;
+  margin: auto;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 70%;
+  transition-duration: 0.4s;
+  color: #00ff4c;
+}
+
+.work .cardButton:hover {
+  background-color: rgb(28, 27, 34); 
+  border-color: rgb(10, 207, 75);
+  box-shadow: 0 4px 6px 0 rgb(14, 182, 70);
+  transform: translateY(-0.25em);
+  color: #00ff4c;
+}
+
+.cardImage {
+  /*object-fit: scale-down;*/
+  margin-top: 10px;
+  --bs-card-inner-border-radius: 15px;
+  border-radius: 15px;
+  width: 50%;
+  height: 15rem;
+  box-shadow: 0 4px 6px 0 rgb(0, 0, 0);
+}
+
+.h-100 .cardTitle {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+
+.h-100 .cardDescription {
+  font-style: italic;
+  font-weight: 350;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
   }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 1px);
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #00ff4c;
+  box-shadow: 0 4px 6px 0 rgb(14, 182, 70);
+  overflow: auto;
+  background-color: rgb(28, 27, 34); 
+}
+
+.box h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 10px);
+  background-color: rgb(28, 27, 34); 
+  width: 25px;
+  height: 28px;
+  border-radius: 25%;
+  line-height: 20px;
+  text-align:center;
+  border: 1px solid #00ff4c;
+  box-shadow: 0 4px 6px 0 rgb(14, 182, 70);
+  font-size: 20px;
+}
+
+.box {
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.close-icon {
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.mySwiper {
+  background: #151515;
+  border-radius: 10px;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mySwiper .item{
+  width: 90%;
+  margin: 30px auto 30px auto;
+  object-fit: scale-down;
+}
+
+.mySwiper .swiper-button-next { 
+  color: #00ff4c; 
+}
+
+.mySwiper .swiper-button-prev { 
+  color: #00ff4c; 
+}
+
+.mySwiper .swiper-pagination-bullet { 
+  background: rgb(6, 7, 6); 
+  border: 1px solid #00ff4c;
+}
+
+.mySwiper .swiper-pagination-bullet-active { 
+  background: #00ff4c; 
+}
+
+/* Contacts CSS */
+.contact {
+  padding: 60px 0 200px 0;
+  width:100%;
+}
+
+.contact h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  color: #00ff4c;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #00ff4c;
+  border-radius: 20px;
+  margin:0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  transition-duration: 0.4s;
+}
+
+.contact form input:focus, .contact form textarea:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contact form input::placeholder, .contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+  opacity: 0.4;
+}
+
+.contact form button {
+  font-weight: 700;
+  color: #00ff4c;
+  background-color: #111111;
+  border:  1px solid #00ff4c;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+
+.contact form button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.contact form button::before {
+  content: "";
+  background: #00ff4c;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form button:hover::before {
+  width: 100%;
+}
+
+/* Footer */
+
+.footer-github-logo {
+  width: 47px;
+  height: 48px;
+}
+
+.footer-mail-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.m-1 {
+  border-radius: 3px;
+}
+
+.m-1:hover{
+  box-shadow: 0 1px 3px 0 rgb(14, 182, 70);
 }
