@@ -11,13 +11,13 @@ export const AboutMe = () => {
                 <Row className="align-items-center">
                     <div className="abme-square">
                         <h2>
-                            - Graduated in Software Engineering and Software Systems and Technologies from Cardiff Metropolitan University and Varna University of Management;
+                            - Graduated from Cardiff MET University in Software Engineering, and from Varna University of Management in Software Systems and Technologies;
                         </h2>
                         <h2>
                             - Worked on commercialized projects written in Kotlin (for android apps) and C# (for windows desktop apps);
                         </h2>
                         <h2>
-                            - Also have an intermediate level in python due to having used it in various bot-development projects and QA testing.
+                            - Also have an intermediate experience with Python, JavaScript and SQL (MySQL, SQLite, SQL Server).
                         </h2>
                     </div>
                 </Row>
