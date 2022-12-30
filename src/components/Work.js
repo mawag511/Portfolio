@@ -51,7 +51,7 @@ export const Work = () => {
       title: "STEP3 Database", 
       description: "Android application",
       imgUrl: proj3Img1,
-      content: "Android application developed with Kotlin. A Database containing information about injectors. Below screenshots of the application in landscape mode.",
+      content: "Android application developed with Kotlin. A Database containing information about injectors. Below, screenshots of the application in landscape mode.",
       picture1: proj3Img2,
       picture2: proj3Img3,
       picture3: proj3Img4,
@@ -61,7 +61,7 @@ export const Work = () => {
       title: "Common Rail Piezo Injector Tester",
       description: "Desktop application",
       imgUrl: proj4Img4,
-      content: "Windows Desktop application developed with C# and Winforms. Useful when it comes to registering tests (their values and graphics when possible) of injectors by different clients. Aside from saving test results, injectors and client information in the database, the softare also allows to export a PDF with test results of an injector.",
+      content: "Windows Desktop application developed with C# and Winforms. Useful when it comes to registering tests (their values and graphics when possible) of injectors by different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with test results of an injector.",
       picture1: proj4Img1,
       picture2: proj4Img2,
       picture3: proj4Img3
