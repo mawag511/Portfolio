@@ -13,13 +13,16 @@ export const AboutMe = () => {
                         <h2>
                             • Graduated from: 
                             <p>&nbsp; - Cardiff MET University in Software Engineering; </p> 
-                            <p>&nbsp; - Varna University of Management in Software Systems and Technologies; </p>
+                            <p>&nbsp; - Varna University of Management in Software Systems and Technologies </p>
+                        </h2>
+                        <h2>
+                        • Mastered in Computer Science (with focus on Cyber Security, Data Analytics and Artificial Intelligence) from MIA Digital University and UDIMA University.
                         </h2>
                         <h2>
                             • Worked on commercialized projects written in Kotlin (for android apps) and C# (for windows desktop apps);
                         </h2>
                         <h2>
-                            • Also have an intermediate experience with Python, JavaScript and SQL (MySQL, SQLite, SQL Server).
+                            • Have experience with Python, JavaScript and SQL.
                         </h2>
                     </div>
                 </Row>

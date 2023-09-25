@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 
 SwiperCore.use([Navigation, Pagination]);
 
-export const WorkCard = ({ title, description, imgUrl, content, picture1, picture2, picture3, picture4}) => {
+export const WorkCard = ({ title, description, imgUrl, content, keywords, picture1, picture2, picture3, picture4}) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,6 +31,7 @@ export const WorkCard = ({ title, description, imgUrl, content, picture1, pictur
       content={<>
         <h3>{title}</h3>
         <p>{content}</p>
+        <p>{keywords}</p>
         <div className="container py-4 px-4 justify-content-center">
               <Swiper modules={[Pagination]} navigation pagination={{ clickable: true }} className="mySwiper" slidesPerView={1} spaceBetween={50} >
                   <SwiperSlide>

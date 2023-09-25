@@ -9,22 +9,30 @@ import proj2Img1 from "../assets/customer_support_bot_pic1.jpg";
 import proj2Img2 from "../assets/customer_support_bot_pic2.png";
 import proj2Img3 from "../assets/customer_support_bot_pic3.png";
 import proj2Img4 from "../assets/customer_support_bot_pic4.png";
-import proj3Img1 from "../assets/step3-1.png";
-import proj3Img2 from "../assets/step3-2.png";
-import proj3Img3 from "../assets/step3-3.png";
-import proj3Img4 from "../assets/step3-4.png";
-import proj4Img1 from "../assets/cmpit_pic1.png"
-import proj4Img2 from "../assets/cmpit_pic2.png"
-import proj4Img3 from "../assets/cmpit_pic3.png"
-import proj4Img4 from "../assets/cmpit_pic4.png"
-import proj5Img1 from "../assets/memory-game1.png"
-import proj5Img2 from "../assets/memory-game2.png"
-import proj5Img3 from "../assets/memory-game3.png"
-import proj5Img4 from "../assets/memory-game4.png"
-import proj6Img1 from "../assets/pet_finder_pic1.jpeg"
-import proj6Img2 from "../assets/pet_finder_pic2.png"
-import proj6Img3 from "../assets/pet_finder_pic3.png"
-import proj6Img4 from "../assets/pet_finder_pic4.png"
+import proj3Img1 from "../assets/scam_locator1.png";
+import proj3Img2 from "../assets/scam_locator2.png";
+import proj3Img3 from "../assets/scam_locator3.png";
+import proj3Img4 from "../assets/scam_locator4.png";
+import proj4Img1 from "../assets/cmpit_pic1.png";
+import proj4Img2 from "../assets/cmpit_pic2.png";
+import proj4Img3 from "../assets/cmpit_pic3.png";
+import proj4Img4 from "../assets/cmpit_pic4.png";
+import proj5Img1 from "../assets/step3-1.png";
+import proj5Img2 from "../assets/step3-2.png";
+import proj5Img3 from "../assets/step3-3.png";
+import proj5Img4 from "../assets/step3-4.png";
+import proj6Img1 from "../assets/isa_letter1.png";
+import proj6Img2 from "../assets/isa_letter2.png";
+import proj6Img3 from "../assets/isa_letter3.png";
+import proj6Img4 from "../assets/isa_letter4.png";
+import proj7Img1 from "../assets/pet_finder_pic1.jpeg";
+import proj7Img2 from "../assets/pet_finder_pic2.png";
+import proj7Img3 from "../assets/pet_finder_pic3.png";
+import proj7Img4 from "../assets/pet_finder_pic4.png";
+import proj8Img1 from "../assets/memory-game1.png";
+import proj8Img2 from "../assets/memory-game2.png";
+import proj8Img3 from "../assets/memory-game3.png";
+import proj8Img4 from "../assets/memory-game4.png";
 
 export const Work = () => {
 
@@ -33,7 +41,8 @@ export const Work = () => {
       title: "Filmer",
       description: "Discord Bot",
       imgUrl: proj1Img1,
-      content: "A Discord Bot developed with Python. Born as a useful bot for a server I'm in, it became a nice idea that might be useful to others as well. The purpose of the bot is to maintain a database of movies that are to be watched or that have been watched already, moreover it also can randomly decide a film for the server to watch.",
+      content: "A Discord Bot. Born as a useful bot for a server I'm in, it became a nice idea that might be useful to others as well. The purpose of the bot is to maintain a database of movies that are to be watched or that have been watched already, moreover it also can randomly decide a film for the server to watch.",
+      keywords: "Keywords: Discord, Python",
       picture1: proj1Img2,
       picture2: proj1Img3,
       picture3: proj1Img4
@@ -42,48 +51,74 @@ export const Work = () => {
       title: "Client Support Bot",
       description: "Telegram Bot",
       imgUrl: proj2Img1,
-      content: "Telegram support Bot developed with Python. Works as a customer support service for companies and firms that work with injectors. Is able to give information (upon request) about the firm itself, about an injector and about its availability. Can also save a user's chat ID in order to notify them about an injector's availability later on, in case the injector they looked for was not available when requested.", 
+      content: "Telegram support Bot. Works as a customer support service for companies and firms that work with injectors. Is able to give information (upon request) about the firm itself, about an injector and about its availability. Can also save a user's chat ID in order to notify them about an injector's availability later on, in case the injector they looked for was not available when requested.", 
+      keywords: "Keywords: Telegram, Python, SQLite, Sequential Model",
       picture1: proj2Img2,
       picture2: proj2Img3,
       picture3: proj2Img4,
     },
     {
-      title: "STEP3 Database", 
-      description: "Android application",
+      title: "Scam Locator",
+      description: "Flask webpage",
       imgUrl: proj3Img1,
-      content: "Android application developed with Kotlin. A Database containing information about injectors. Below, screenshots of the application in landscape mode.",
+      content: "Flask site where user input will be checked against three different algorithms on whether it is a spam/scam or ham message. Different datasets were used in order to train a Naive-Bayes, a Logistic Regression and a Word Count algorithm, which are then imported to the back-end of the application.", 
+      keywords: "Keywords: Flask, Python, Naive-Bayes model, Logistic Regression model, Word Count algorithm",
       picture1: proj3Img2,
       picture2: proj3Img3,
       picture3: proj3Img4,
-     
     },
     {
       title: "Common Rail Piezo Injector Tester",
       description: "Desktop application",
       imgUrl: proj4Img4,
-      content: "Windows Desktop application developed with C# and Winforms. Useful when it comes to registering tests (their values and graphics when possible) of injectors by different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with test results of an injector.",
+      content: "Windows Desktop application. Useful when it comes to registering tests (their values and graphics when possible) of injectors by different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with test results of an injector.",
+      keywords: "Keywords: C#, Winforms, SQLite",
       picture1: proj4Img1,
       picture2: proj4Img2,
       picture3: proj4Img3
     },
     {
-      title: "Pepe Card Game",
-      description: "Browser webpage/webgame",
+      title: "STEP3 Database", 
+      description: "Android application",
       imgUrl: proj5Img1,
-      content: "Browser Memory Card Game developed with HTML, CSS and JavaScript. It includes a single-player mode (with easy, medium and hard difficulties) as well as a local multi-player mode that goes up to 4 players.",
+      content: "Android application. A Database containing information about injectors. Below, screenshots of the application in landscape mode.",
+      keywords: "Keywords: Kotlin, Room",
       picture1: proj5Img2,
       picture2: proj5Img3,
-      picture3: proj5Img4
+      picture3: proj5Img4,
+     
+    },
+    {
+      title: "Bosch ISA Letter Assignment", 
+      description: "Android application",
+      imgUrl: proj6Img1,
+      content: "Android application. It contains a Database of different injectors as well as their values and the respective ISA Letters. Based on the inserted measured value, the corresponding letter is displayed. Below, screenshots of the application in landscape mode.",
+      keywords: "Keywords: Kotlin, Room",
+      picture1: proj6Img2,
+      picture2: proj6Img3,
+      picture3: proj6Img4,
+     
     },
     {
       title: "Pet Finder",
       description: "Android application",
-      imgUrl: proj6Img1,
-      content: "Application developed with Kotlin, useful for animal shelters and volunteers. The purpose is to save a route/walk done by the client (with geolocation) and add information about stray animals seen during that. Can be useful to monitor the life and/or problems of stray animals in the area. (To be finished)",
-      picture1: proj6Img2,
-      picture2: proj6Img3,
-      picture3: proj6Img4
+      imgUrl: proj7Img1,
+      content: "Application useful for animal shelters and volunteers. The purpose is to save a route/walk done by the client (with geolocation) and add information about stray animals seen during that. Can be useful to monitor the life and/or problems of stray animals in the area. (To be finished)",
+      keywords: "Keywords: Kotlin, Room",
+      picture1: proj7Img2,
+      picture2: proj7Img3,
+      picture3: proj7Img4
     },
+    {
+      title: "Pepe Card Game",
+      description: "Browser webpage/webgame",
+      imgUrl: proj8Img1,
+      content: "Browser Memory Card Game. It includes a single-player mode (with easy, medium and hard difficulties) as well as a local multi-player mode that goes up to 4 players.",
+      keywords: "Keywords: HTML, CSS, JavaScript",
+      picture1: proj8Img2,
+      picture2: proj8Img3,
+      picture3: proj8Img4
+    }
   ];
   
     return (
