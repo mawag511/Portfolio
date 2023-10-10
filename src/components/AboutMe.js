@@ -16,7 +16,9 @@ export const AboutMe = () => {
                             <p>&nbsp; - Varna University of Management in Software Systems and Technologies </p>
                         </h2>
                         <h2>
-                        • Mastered in Computer Science (with focus on Cyber Security, Data Analytics and Artificial Intelligence) from MIA Digital University and UDIMA University.
+                            • Mastered in Computer Science (with focus on Cyber Security, Data Analytics and Artificial Intelligence) from: 
+                            <p>&nbsp; - MIA Digital University; </p> 
+                            <p>&nbsp; - UDIMA University </p> 
                         </h2>
                         <h2>
                             • Worked on commercialized projects written in Kotlin (for android apps) and C# (for windows desktop apps);
