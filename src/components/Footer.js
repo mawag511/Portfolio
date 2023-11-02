@@ -28,7 +28,7 @@ export const Footer = () => {
       </MDBContainer>
 
       <div className='text-center p-3'  style={{ backgroundColor: ' #08090a', color: "#00ff4c"}}>
-        Copyright 2022. All Rights Reserved 
+        Copyright 2022-2023. All Rights Reserved
       </div>
     </MDBFooter>
   );
