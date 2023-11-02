@@ -296,7 +296,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .work .g-4 {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 35px;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   padding: 10px;
   margin-top: 2rem;
