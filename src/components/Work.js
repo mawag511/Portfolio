@@ -1,38 +1,38 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { CRow } from "@coreui/react";
 import { WorkCard } from "./WorkCard";
-import proj1Img1 from "../assets/filmer_pic1.png";
-import proj1Img2 from "../assets/filmer_pic2.png";
-import proj1Img3 from "../assets/filmer_pic3.png";
-import proj1Img4 from "../assets/filmer_pic4.png";
-import proj2Img1 from "../assets/customer_support_bot_pic1.jpg";
-import proj2Img2 from "../assets/customer_support_bot_pic2.png";
-import proj2Img3 from "../assets/customer_support_bot_pic3.png";
-import proj2Img4 from "../assets/customer_support_bot_pic4.png";
-import proj3Img1 from "../assets/scam_locator1.png";
-import proj3Img2 from "../assets/scam_locator2.png";
-import proj3Img3 from "../assets/scam_locator3.png";
-import proj3Img4 from "../assets/scam_locator4.png";
-import proj4Img1 from "../assets/cmpit_pic1.png";
-import proj4Img2 from "../assets/cmpit_pic2.png";
-import proj4Img3 from "../assets/cmpit_pic3.png";
-import proj4Img4 from "../assets/cmpit_pic4.png";
-import proj5Img1 from "../assets/step3-1.png";
-import proj5Img2 from "../assets/step3-2.png";
-import proj5Img3 from "../assets/step3-3.png";
-import proj5Img4 from "../assets/step3-4.png";
-import proj6Img1 from "../assets/isa_letter1.png";
-import proj6Img2 from "../assets/isa_letter2.png";
-import proj6Img3 from "../assets/isa_letter3.png";
-import proj6Img4 from "../assets/isa_letter4.png";
-import proj7Img1 from "../assets/pet_finder_pic1.jpeg";
-import proj7Img2 from "../assets/pet_finder_pic2.png";
-import proj7Img3 from "../assets/pet_finder_pic3.png";
-import proj7Img4 from "../assets/pet_finder_pic4.png";
-import proj8Img1 from "../assets/memory-game1.png";
-import proj8Img2 from "../assets/memory-game2.png";
-import proj8Img3 from "../assets/memory-game3.png";
-import proj8Img4 from "../assets/memory-game4.png";
+import proj1Img1 from "../assets/webp/filmer_pic1.webp";
+import proj1Img2 from "../assets/webp/filmer_pic2.webp";
+import proj1Img3 from "../assets/webp/filmer_pic3.webp";
+import proj1Img4 from "../assets/webp/filmer_pic4.webp";
+import proj2Img1 from "../assets/webp/customer_support_bot_pic1.webp";
+import proj2Img2 from "../assets/webp/customer_support_bot_pic2.webp";
+import proj2Img3 from "../assets/webp/customer_support_bot_pic3.webp";
+import proj2Img4 from "../assets/webp/customer_support_bot_pic4.webp";
+import proj3Img1 from "../assets/webp/unscammed_1.webp";
+import proj3Img2 from "../assets/webp/unscammed_2.webp";
+import proj3Img3 from "../assets/webp/unscammed_3.webp";
+import proj3Img4 from "../assets/webp/unscammed_4.webp";
+import proj4Img1 from "../assets/webp/cmpit_pic1.webp";
+import proj4Img2 from "../assets/webp/cmpit_pic2.webp";
+import proj4Img3 from "../assets/webp/cmpit_pic3.webp";
+import proj4Img4 from "../assets/webp/cmpit_pic4.webp";
+import proj5Img1 from "../assets/webp/step3-1.webp";
+import proj5Img2 from "../assets/webp/step3-2.webp";
+import proj5Img3 from "../assets/webp/step3-3.webp";
+import proj5Img4 from "../assets/webp/step3-4.webp";
+import proj6Img1 from "../assets/webp/isa_letter1.webp";
+import proj6Img2 from "../assets/webp/isa_letter2.webp";
+import proj6Img3 from "../assets/webp/isa_letter3.webp";
+import proj6Img4 from "../assets/webp/isa_letter4.webp";
+import proj7Img1 from "../assets/webp/pet_finder_pic1.webp";
+import proj7Img2 from "../assets/webp/pet_finder_pic2.webp";
+import proj7Img3 from "../assets/webp/pet_finder_pic3.webp";
+import proj7Img4 from "../assets/webp/pet_finder_pic4.webp";
+import proj8Img1 from "../assets/webp/memory-game1.webp";
+import proj8Img2 from "../assets/webp/memory-game2.webp";
+import proj8Img3 from "../assets/webp/memory-game3.webp";
+import proj8Img4 from "../assets/webp/memory-game4.webp";
 
 export const Work = () => {
 
@@ -58,11 +58,11 @@ export const Work = () => {
       picture3: proj2Img4,
     },
     {
-      title: "Scam Locator",
-      description: "Flask webpage",
+      title: "Unscammed",
+      description: "Desktop application",
       imgUrl: proj3Img1,
-      content: "Flask site where user input is checked against three different algorithms on whether it is a spam/scam or ham message. Different datasets were used in order to train a Naive-Bayes, a Logistic Regression and a Word Count algorithm, which are then imported to the back-end of the application and worked with.", 
-      keywords: "Keywords: Flask, Python, Machine Learning, Jupyter Notebook, Naive-Bayes Model, Logistic Regression Model",
+      content: "Software where user input is checked against three different algorithms on whether it is a spam/scam or ham message. Different datasets were used in order to train a Naive-Bayes, a Logistic Regression and a Word Count algorithm, which are then imported to the back-end of the application and worked with.", 
+      keywords: "Keywords: Python, PyQT5, Machine Learning, Jupyter Notebook, Naive-Bayes Model, Logistic Regression Model",
       picture1: proj3Img2,
       picture2: proj3Img3,
       picture3: proj3Img4,

@@ -2,10 +2,10 @@ import {
   MDBFooter,
   MDBContainer,
 } from 'mdb-react-ui-kit';
-import githubLogo from "../assets/github-logo.png"
-import hhLogo from "../assets/hh-logo.png"
-import mailLogo from "../assets/mail-logo.jpg"
-import linkedinLogo from "../assets/linkedin-logo.png"
+import githubLogo from "../assets/webp/github-logo.webp"
+import hhLogo from "../assets/webp/hh-logo.webp"
+import mailLogo from "../assets/webp/mail-logo.webp"
+import linkedinLogo from "../assets/webp/linkedin-logo.webp"
 
 export const Footer = () => {
   return (
@@ -28,7 +28,7 @@ export const Footer = () => {
       </MDBContainer>
 
       <div className='text-center p-3'  style={{ backgroundColor: ' #08090a', color: "#00ff4c"}}>
-        Copyright 2022-2023. All Rights Reserved
+        Copyright 2024. All Rights Reserved.
       </div>
     </MDBFooter>
   );
