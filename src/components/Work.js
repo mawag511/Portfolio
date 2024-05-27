@@ -1,38 +1,38 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { CRow } from "@coreui/react";
 import { WorkCard } from "./WorkCard";
-import proj1Img1 from "../assets/webp/filmer_pic1.webp";
-import proj1Img2 from "../assets/webp/filmer_pic2.webp";
-import proj1Img3 from "../assets/webp/filmer_pic3.webp";
-import proj1Img4 from "../assets/webp/filmer_pic4.webp";
-import proj2Img1 from "../assets/webp/customer_support_bot_pic1.webp";
-import proj2Img2 from "../assets/webp/customer_support_bot_pic2.webp";
-import proj2Img3 from "../assets/webp/customer_support_bot_pic3.webp";
-import proj2Img4 from "../assets/webp/customer_support_bot_pic4.webp";
-import proj3Img1 from "../assets/webp/unscammed_1.webp";
-import proj3Img2 from "../assets/webp/unscammed_2.webp";
-import proj3Img3 from "../assets/webp/unscammed_3.webp";
-import proj3Img4 from "../assets/webp/unscammed_4.webp";
-import proj4Img1 from "../assets/webp/cmpit_pic1.webp";
-import proj4Img2 from "../assets/webp/cmpit_pic2.webp";
-import proj4Img3 from "../assets/webp/cmpit_pic3.webp";
-import proj4Img4 from "../assets/webp/cmpit_pic4.webp";
-import proj5Img1 from "../assets/webp/step3-1.webp";
-import proj5Img2 from "../assets/webp/step3-2.webp";
-import proj5Img3 from "../assets/webp/step3-3.webp";
-import proj5Img4 from "../assets/webp/step3-4.webp";
+import proj1Img1 from "../assets/webp/filmer1.webp";
+import proj1Img2 from "../assets/webp/filmer2.webp";
+import proj1Img3 from "../assets/webp/filmer3.webp";
+import proj1Img4 from "../assets/webp/filmer4.webp";
+import proj2Img1 from "../assets/webp/cbot1.webp";
+import proj2Img2 from "../assets/webp/cbot2.webp";
+import proj2Img3 from "../assets/webp/cbot3.webp";
+import proj2Img4 from "../assets/webp/cbot4.webp";
+import proj3Img1 from "../assets/webp/unscammed1.webp";
+import proj3Img2 from "../assets/webp/unscammed2.webp";
+import proj3Img3 from "../assets/webp/unscammed3.webp";
+import proj3Img4 from "../assets/webp/unscammed4.webp";
+import proj4Img1 from "../assets/webp/crpit1.webp";
+import proj4Img2 from "../assets/webp/crpit2.webp";
+import proj4Img3 from "../assets/webp/crpit3.webp";
+import proj4Img4 from "../assets/webp/crpit4.webp";
+import proj5Img1 from "../assets/webp/step3_1.webp";
+import proj5Img2 from "../assets/webp/step3_2.webp";
+import proj5Img3 from "../assets/webp/step3_3.webp";
+import proj5Img4 from "../assets/webp/step3_4.webp";
 import proj6Img1 from "../assets/webp/isa_letter1.webp";
 import proj6Img2 from "../assets/webp/isa_letter2.webp";
 import proj6Img3 from "../assets/webp/isa_letter3.webp";
 import proj6Img4 from "../assets/webp/isa_letter4.webp";
-import proj7Img1 from "../assets/webp/pet_finder_pic1.webp";
-import proj7Img2 from "../assets/webp/pet_finder_pic2.webp";
-import proj7Img3 from "../assets/webp/pet_finder_pic3.webp";
-import proj7Img4 from "../assets/webp/pet_finder_pic4.webp";
-import proj8Img1 from "../assets/webp/memory-game1.webp";
-import proj8Img2 from "../assets/webp/memory-game2.webp";
-import proj8Img3 from "../assets/webp/memory-game3.webp";
-import proj8Img4 from "../assets/webp/memory-game4.webp";
+import proj7Img1 from "../assets/webp/petfinder1.webp";
+import proj7Img2 from "../assets/webp/petfinder2.webp";
+import proj7Img3 from "../assets/webp/petfinder3.webp";
+import proj7Img4 from "../assets/webp/petfinder4.webp";
+import proj8Img1 from "../assets/webp/memory1.webp";
+import proj8Img2 from "../assets/webp/memory2.webp";
+import proj8Img3 from "../assets/webp/memory3.webp";
+import proj8Img4 from "../assets/webp/memory4.webp";
 
 export const Work = () => {
 
@@ -70,12 +70,12 @@ export const Work = () => {
     {
       title: "Common Rail Piezo Injector Tester",
       description: "Desktop application",
-      imgUrl: proj4Img4,
+      imgUrl: proj4Img1,
       content: "Software useful when it comes to registering injector tests (their values and graphs when possible) of different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with the necessary data.",
       keywords: "Keywords: C#, Winforms, SQLite DB, Generic Repository Pattern",
-      picture1: proj4Img1,
-      picture2: proj4Img2,
-      picture3: proj4Img3
+      picture1: proj4Img2,
+      picture2: proj4Img3,
+      picture3: proj4Img4
     },
     {
       title: "STEP3 Database", 
