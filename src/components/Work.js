@@ -13,26 +13,30 @@ import proj3Img1 from "../assets/webp/unscammed1.webp";
 import proj3Img2 from "../assets/webp/unscammed2.webp";
 import proj3Img3 from "../assets/webp/unscammed3.webp";
 import proj3Img4 from "../assets/webp/unscammed4.webp";
-import proj4Img1 from "../assets/webp/crpit1.webp";
-import proj4Img2 from "../assets/webp/crpit2.webp";
-import proj4Img3 from "../assets/webp/crpit3.webp";
-import proj4Img4 from "../assets/webp/crpit4.webp";
-import proj5Img1 from "../assets/webp/step3_1.webp";
-import proj5Img2 from "../assets/webp/step3_2.webp";
-import proj5Img3 from "../assets/webp/step3_3.webp";
-import proj5Img4 from "../assets/webp/step3_4.webp";
-import proj6Img1 from "../assets/webp/isa_letter1.webp";
-import proj6Img2 from "../assets/webp/isa_letter2.webp";
-import proj6Img3 from "../assets/webp/isa_letter3.webp";
-import proj6Img4 from "../assets/webp/isa_letter4.webp";
-import proj7Img1 from "../assets/webp/petfinder1.webp";
-import proj7Img2 from "../assets/webp/petfinder2.webp";
-import proj7Img3 from "../assets/webp/petfinder3.webp";
-import proj7Img4 from "../assets/webp/petfinder4.webp";
-import proj8Img1 from "../assets/webp/memory1.webp";
-import proj8Img2 from "../assets/webp/memory2.webp";
-import proj8Img3 from "../assets/webp/memory3.webp";
-import proj8Img4 from "../assets/webp/memory4.webp";
+import proj4Img1 from "../assets/webp/gameDWH1.webp";
+import proj4Img2 from "../assets/webp/gameDWH2.webp";
+import proj4Img3 from "../assets/webp/gameDWH3.webp";
+import proj4Img4 from "../assets/webp/gameDWH4.webp";
+import proj5Img1 from "../assets/webp/crpit1.webp";
+import proj5Img2 from "../assets/webp/crpit2.webp";
+import proj5Img3 from "../assets/webp/crpit3.webp";
+import proj5Img4 from "../assets/webp/crpit4.webp";
+import proj6Img1 from "../assets/webp/crp_1.webp";
+import proj6Img2 from "../assets/webp/crp_2.webp";
+import proj6Img3 from "../assets/webp/crp_3.webp";
+import proj6Img4 from "../assets/webp/crp_4.webp";
+import proj7Img1 from "../assets/webp/isa_letter1.webp";
+import proj7Img2 from "../assets/webp/isa_letter2.webp";
+import proj7Img3 from "../assets/webp/isa_letter3.webp";
+import proj7Img4 from "../assets/webp/isa_letter4.webp";
+import proj8Img1 from "../assets/webp/petfinder1.webp";
+import proj8Img2 from "../assets/webp/petfinder2.webp";
+import proj8Img3 from "../assets/webp/petfinder3.webp";
+import proj8Img4 from "../assets/webp/petfinder4.webp";
+import proj9Img1 from "../assets/webp/memory1.webp";
+import proj9Img2 from "../assets/webp/memory2.webp";
+import proj9Img3 from "../assets/webp/memory3.webp";
+import proj9Img4 from "../assets/webp/memory4.webp";
 
 export const Work = () => {
 
@@ -68,31 +72,30 @@ export const Work = () => {
       picture3: proj3Img4,
     },
     {
-      title: "Common Rail Piezo Injector Tester",
-      description: "Desktop application",
+      title: "DWH 'Par'",
+      description: "Data Warehouse and BI system",
       imgUrl: proj4Img1,
-      content: "Software useful when it comes to registering injector tests (their values and graphs when possible) of different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with the necessary data.",
-      keywords: "Keywords: C#, Winforms, SQLite DB, Generic Repository Pattern",
+      content: "Simulation of the creation of an online shop's DWH, with its ETL process and BI visualization",
+      keywords: "Keywords: DWH, BI, PostgreSQL, Inmon's methodology, ETL, Apache Airflow, PIX BI",
       picture1: proj4Img2,
       picture2: proj4Img3,
       picture3: proj4Img4
     },
     {
-      title: "STEP3 Database", 
-      description: "Android application",
+      title: "Common Rail Piezo Injector Tester",
+      description: "Desktop application",
       imgUrl: proj5Img1,
-      content: "Database containing information about injectors. Below, screenshots of the application in landscape mode.",
-      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern",
+      content: "Software useful when it comes to registering injector tests (their values and graphs when possible) of different clients. Aside from saving test results, injectors and client information in the database, the software also allows to export a PDF with the necessary data.",
+      keywords: "Keywords: C#, Winforms, SQLite DB, Generic Repository Pattern",
       picture1: proj5Img2,
       picture2: proj5Img3,
-      picture3: proj5Img4,
-     
+      picture3: proj5Img4
     },
     {
-      title: "Bosch ISA Letter Assignment", 
+      title: "CRP Data", 
       description: "Android application",
       imgUrl: proj6Img1,
-      content: "Database of different injectors with their according values and respective ISA Letters. Based on the inserted measured value, the corresponding letter is displayed. Below, screenshots of the application in landscape mode.",
+      content: "Database containing information about manufacturers, pumps and pump tests. It also allows to copy the details about a pump and/or test. Below, screenshots of the application on tablet layout.",
       keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern",
       picture1: proj6Img2,
       picture2: proj6Img3,
@@ -100,24 +103,35 @@ export const Work = () => {
      
     },
     {
-      title: "Pet Finder",
-      description: "Android application (work in progress...)",
+      title: "Bosch ISA", 
+      description: "Android application",
       imgUrl: proj7Img1,
-      content: "Android application possibly useful for animal shelters and volunteers. The purpose is to save a route/walk done by the user and add information about stray animals seen during it. The app can be useful to monitor the life and/or problems of stray animals in the area.",
-      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API",
+      content: "Database of different injectors with their according values and respective ISA Letters. Based on the inserted measured value, the corresponding letter is displayed. Below, screenshots of the application in landscape mode.",
+      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern",
       picture1: proj7Img2,
       picture2: proj7Img3,
-      picture3: proj7Img4
+      picture3: proj7Img4,
+     
+    },
+    {
+      title: "Pet Finder",
+      description: "Android application (work in progress...)",
+      imgUrl: proj8Img1,
+      content: "Android application possibly useful for animal shelters and volunteers. The purpose is to save a route/walk done by the user and add information about stray animals seen during it. The app can be useful to monitor the life and/or problems of stray animals in the area.",
+      keywords: "Keywords: Kotlin, Room, Model-View-ViewModel pattern, Google Maps API",
+      picture1: proj8Img2,
+      picture2: proj8Img3,
+      picture3: proj8Img4
     },
     {
       title: "Pepe Card Game",
       description: "Browser webpage/webgame",
-      imgUrl: proj8Img1,
+      imgUrl: proj9Img1,
       content: "Browser Memory Card Game that includes a single-player mode (with easy, medium and hard difficulties) as well as a local multi-player mode that goes up to 4 players.",
       keywords: "Keywords: HTML, CSS, JavaScript",
-      picture1: proj8Img2,
-      picture2: proj8Img3,
-      picture3: proj8Img4
+      picture1: proj9Img2,
+      picture2: proj9Img3,
+      picture3: proj9Img4
     }
   ];
   

@@ -21,10 +21,13 @@ export const AboutMe = () => {
                             <p>&nbsp; - UDIMA University </p> 
                         </h2>
                         <h2>
+                            • Worked with several SQL Database Management Systems (both OLTP and OLAP);
+                        </h2>
+                        <h2>
                             • Worked on commercialized projects written in Kotlin (for android apps) and C# (for windows desktop apps);
                         </h2>
                         <h2>
-                            • Have experience with Python, JavaScript and SQL.
+                            • Have experience with programming and testing in Python.
                         </h2>
                     </div>
                 </Row>
